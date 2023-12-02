@@ -1,0 +1,143 @@
+html{
+    box-sizing:border-box;
+}
+*{
+ margin:0;
+ padding:0;
+}
+body {
+    color: #333;
+    background: #fff;
+    font: 16px/1.6 "Muli", sans-serif;
+    min-width: 320px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    overflow-x: hidden;
+  }
+  
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Muli", sans-serif;
+    font-weight: 400;
+    margin: 0 0 20px;
+    color: inherit;
+  }
+  
+  h1 {
+    font-size: 46px;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+  h3 {
+    font-size: 22px;
+  }
+  
+  h4 {
+    font-size: 18px;
+  }
+  
+  h5 {
+    font-size: 17px;
+  }
+  
+  h6 {
+    font-size: 15px;
+  }
+  
+  p {
+    margin: 0 0 15px;
+  }
+  
+  a {
+    color: #f64b4b;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover,
+  a:focus {
+    text-decoration: none;
+    color: #f41a1a;
+  }
+.logo{
+    width:200px;
+    height:50px;
+
+}
+
+#header{
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+    z-index: 9999;
+    background: #fff;
+    box-shadow: 0 0 8px 5px rgba(0, 0, 0, 0.3);
+    transition:all .5s ease;
+    padding:15px 0;
+}
+#header .navbar{
+    justify-content:space-between ;
+    background:none !important;
+    padding:0;
+}
+#header .navbar-brand{
+    color:#ffc107;
+    font-weight:600;
+    height:auto;
+    padding:0;
+    font-size:22px;
+    line-height: 1.6;
+    text-transform:uppercase;
+}
+#header .navbar-collapse .navbar-nav{
+    flex-grow:0;
+}
+#header .navbar-collapse .navbar-nav{
+    font-size:18px;
+    line-height:14px;
+}
+#header .navbar-collapse a:last-child{
+    padding-right:0;
+}
+#header .navbar-collapse a{
+    color: #4d4d4d;
+    position: relative;
+}
+#header .navbar-collapse a:hover ,
+#header .navbar-collapse a.active{
+    background:none;
+    color:#ffc107;
+}
+#header .navbar-collapse a:hover::before,
+#header .navbar-collapse a.active:before {
+    right:7px;
+    left:8px;
+    opacity:1;
+}
+#header .navbar-collapse a:before{
+    content:'';
+    background: #ffc107;
+    height:1;
+    position: absolute;
+    bottom:7px;
+    left:-20px;
+    right:100%;
+    transition:all .3s linear;
+    -webkit-transition:all .3s linear;
+    opacity:0;
+  
+}
+
+
+  
+
