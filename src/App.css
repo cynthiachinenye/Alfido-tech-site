@@ -73,12 +73,12 @@ body {
     height:50px;
 
 }
-
+/* 
 #header{
   height:300px;
   background: blue;
     
-} 
+}  */
   .navbar-light{
     background:none !important;
      position:absolute;
@@ -92,6 +92,9 @@ body {
  
 
  } 
+ .hr{
+  width:90px;
+ }
  
 .sticky-top.navbar-light .navbar-brand img {
     max-height: 45px;
@@ -112,6 +115,28 @@ body {
     font-size:22px;
     line-height: 1.6;
     text-transform:uppercase;
+}
+.slideInDown {
+  animation-name: slideInDown;
+}
+.bg-white {
+  color:#fff;
+}
+.bg-primary{
+  background-color: #6222cc !important;
+}
+
+element.style {
+}
+.text-white {
+    color: #fff !important;
+}
+.slideInDown {
+    animation-name: slideInDown;
+}
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
 }
 #header .navbar-collapse .navbar-nav{
     flex-grow:0;

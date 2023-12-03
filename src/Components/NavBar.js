@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 
 const NavBar = () => {
   return (
-    <div className='container position-relative'>
+    <div className='container position-relative p-0 w-100  bg-primary'>
     <nav className='navbar navbar-expand-lg navbar-light px-3-lg-5 py-3 py-lg-0'>
     <a className='navbar-brand' href='#'><img src=".././Assets/Alfido.png" alt='logo' className='logo '/></a>
     
@@ -22,8 +22,22 @@ const NavBar = () => {
   
   </div>
     </nav>
-      <div>
-      <h1>Internship Registration</h1>
+      <div className='container-xxl py-2 bg-primary hero-header  w-100'>
+      <div className='container my-2 py-2 px-lg-2'>
+      
+      <div className='row g-5 py-5'>
+      
+      <div className='col-12 text-center'>
+      <br/>
+      <br/>
+     
+      <h1 className='text-white animated slideInDown'>Internship Registration</h1>
+      <hr className='bg-white mx-auto mt-0 hr' />
+      </div>
+      </div>
+      
+      </div>
+     
       </div>
     </div>
   )
