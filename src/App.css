@@ -1,4 +1,4 @@
-/* html{
+ html{
     box-sizing:border-box;
 }
 *{
@@ -56,9 +56,13 @@ body {
   p {
     margin: 0 0 15px;
   }
+ 
+  .bg-primary{
+    background:#6610f2 !important;
+  }
   
   a {
-    color: #f64b4b;
+    color: #c6c4c4 !important;
     text-decoration: none;
     transition: color 0.3s ease;
   }
@@ -66,13 +70,33 @@ body {
   a:hover,
   a:focus {
     text-decoration: none;
-    color: #f41a1a;
+    color:#ffc107 !important;
   }
-.logo{
-    width:200px;
-    height:50px;
-
+.active{
+  color:#ffc107 !important;
 }
+.navbar-light{
+  background:none !important;
+   position:absolute;
+  left:0;
+  top:0;
+  z-index: 9999;
+   /* box-shadow: 0 0 8px 5px rgba(0, 0, 0, 0.3); */
+  transition:all .5s ease; 
+  border-bottom: 1px solid rgba(256,256,1);
+  width:100%;
+
+
+} 
+.slideInDown {
+  animation-name: slideInDown;
+  
+}
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
 /* 
 #header{
   height:300px;
