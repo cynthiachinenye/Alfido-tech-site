@@ -96,7 +96,16 @@ body {
   animation-duration: 1s;
   animation-fill-mode: both;
 }
-
+.block-home .content p{
+  text-transform: uppercase;
+  color:#ffc107;
+}
+.block-home .content span{
+  height: 1px;
+  width:50px;
+  color:#ffc107;
+  
+}
 /* 
 #header{
   height:300px;
