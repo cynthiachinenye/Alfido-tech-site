@@ -134,7 +134,6 @@ body {
 }
 .list {
   /* padding-left:230px !important; */
-  /*  */
   display:flex;
   flex-direction: column;
   justify-content:center;

@@ -8,7 +8,7 @@ const Home = () => {
     <div className='text-center m-5 content'>
     <p  className='fs-4 section-title'><span></span> contact us <span></span></p>
   
-    <h1>Internship Program Details</h1>
+    <h1 className='text-dark'>Internship Program Details</h1>
     </div>
     <div>
     <div className=' text-secondary list'>
@@ -25,7 +25,10 @@ const Home = () => {
     
     </ul>
     <hr className='horizon'/>
-    
+    <div>
+    <p>📌 Apply now and get offer letter within 24 Hours</p>
+    <h2 className='text-dark fs-5 fw-700'>📌 Join Alfido Tech Communities</h2>
+    </div>
     </div>
     </div>
     
