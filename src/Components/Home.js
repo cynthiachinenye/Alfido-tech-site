@@ -24,7 +24,7 @@ const Home = () => {
 
     
     </ul>
-    <hr/>
+    <hr className='horizon'/>
     
     </div>
     </div>
