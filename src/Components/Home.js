@@ -11,9 +11,9 @@ const Home = () => {
     <h1>Internship Program Details</h1>
     </div>
     <div>
-    <div className='ms-5 ps-5 text-secondary'>
+    <div className=' text-secondary list'>
     <p></p>
-    <ul className=' ms-5 ps-5 fs-5 list'>
+    <ul className='  fs-6'>
     <li><strong>Duration: 1 Month</strong></li>
     <li><strong>Starting Date:</strong><strong className='text-danger'>  10 December 2023</strong></li>
     <li><strong>Submission Date:</strong><strong> 25 December To 10 January</strong></li>

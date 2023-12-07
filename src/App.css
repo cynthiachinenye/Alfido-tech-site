@@ -133,12 +133,18 @@ body {
   content:"";
 }
 .list {
-  padding-left:230px !important;
+  /* padding-left:230px !important; */
+  /*  */
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: left;
+  padding-left:350px;
   font-weight:700;
 }
 .horizon{
 width:800px;
-  margin-left: 200px;
+  
 }
 /* 
 #header{
