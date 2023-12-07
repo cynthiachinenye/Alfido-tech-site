@@ -9,7 +9,7 @@ import Col from 'react-bootstrap/Col';
 const NavBar = () => {
   return (
     <section className='block block-section'>
-      <Navbar expand="lg" className="bg-body-tertiary position-fixed">
+      <Navbar expand="lg" className="bg-body-tertiary position-fixed sticky-top">
 
         <Container>
           <Navbar.Brand href="#home"><img src='../Assets/Alfido.png' alt="logo" style={{ width: 200, height: 50 }} /></Navbar.Brand>
