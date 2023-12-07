@@ -132,6 +132,10 @@ body {
   right:-20px;
   content:"";
 }
+.list {
+  padding-left:230px !important;
+  font-weight:700;
+}
 /* 
 #header{
   height:300px;

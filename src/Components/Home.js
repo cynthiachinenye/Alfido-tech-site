@@ -11,11 +11,11 @@ const Home = () => {
     <h1>Internship Program Details</h1>
     </div>
     <div>
-    <div>
+    <div className='ms-5 ps-5 text-secondary'>
     <p></p>
-    <ul>
+    <ul className=' ms-5 ps-5 fs-5 list'>
     <li><strong>Duration: 1 Month</strong></li>
-    <li><strong>Starting Date:</strong><strong> 10 December 2023</strong></li>
+    <li><strong>Starting Date:</strong><strong className='text-danger'>  10 December 2023</strong></li>
     <li><strong>Submission Date:</strong><strong> 25 December To 10 January</strong></li>
     <li><strong>Mode:</strong><strong> Online & Task Based</strong></li>
     <li><strong>Perk:</strong><strong> Offer letter  & Completion Certification</strong></li>
