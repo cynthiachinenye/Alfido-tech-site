@@ -92,6 +92,10 @@ body {
 
 
 } 
+.navbar-light .sticky-top::after{
+  background: #fff !important;
+
+}
 .slideInDown {
   animation-name: slideInDown;
   

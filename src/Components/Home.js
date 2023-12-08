@@ -37,10 +37,17 @@ const Home = () => {
     </div>
     <hr className='horizon'/>
 
-    <h2 className='text-dark fs-4 fw-700 ps-3 w-100'>📌 Please carefully fill out all of the details that will be needed for the internship offer letter and internship certificate.
+    <h2 className='text-dark fs-4 fw-700 ps-3 w-75'>📌 Please carefully fill out all of the details that will be needed for the internship offer letter and internship certificate.
     If You Want a 4-month internship certificate, I will Give You some conditions.</h2>
     
     </div>
+    </div>
+
+    <div className='container bg-light'>
+    <form>
+    <h1 className='text-dark'>Registration Form</h1>
+    </form>
+    
     </div>
     
     </Container>
